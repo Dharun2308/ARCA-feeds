@@ -25,12 +25,6 @@ define Package/helloworld
 	TITLE:=Hello, world!
 endef
 
-# Package description; a more verbose description on what our package does
-
-define Package/helloworld/description
-	A simple "Hello, world!" -application.
-endef
-
 
 # Package install instructions; create a directory inside the package to hold our executable, and then copy the executable we built previously into the folder
 define Package/helloworld/install
